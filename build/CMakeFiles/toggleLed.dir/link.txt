@@ -1,0 +1,1 @@
+/usr/bin/aarch64-linux-gnu-gcc -O3 -DNDEBUG CMakeFiles/toggleLed.dir/src/main.c.o -o toggleLed   -L/home/houssem/WiringPi/wiringPi  -Wl,-rpath,/home/houssem/WiringPi/wiringPi -lwiringPi 

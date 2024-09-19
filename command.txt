@@ -1,0 +1,5 @@
+cmake -DCMAKE_TOOLCHAIN_FILE=../toolchain.cmake ..
+make 
+scp helloWorld rpi@192.168.0.116:/home/rpi/Desktop/cpp/helloWord/build
+
+cmake .. -DCMAKE_TOOLCHAIN_FILE=build/build/Release/generators/conan_toolchain.cmake -DCMAKE_BUILD_TYPE=Release

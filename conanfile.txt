@@ -1,0 +1,7 @@
+[requires]
+wiringpi/cci.20210727
+[generators]
+CMakeDeps
+CMakeToolchain
+[layout]
+cmake_layout
